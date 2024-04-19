@@ -47,12 +47,6 @@ public class BST_Loop {
         }
         return false;
     }
-//    void print(){
-//        Node cur = root;
-//        while (cur != null){
-//            System.out.print(cur.data+ " ");
-//        }
-//    }
     public static void inorder(Node root){
         if (root == null){
             return;
